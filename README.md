@@ -4,7 +4,7 @@
     <a href="https://www.gatsbyjs.org">
       <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
     </a>
-    ##&
+    ## &
     <a href="https://www.material-ui.com">
       <img alt="material-ui"  src="https://material-ui.com/static/logo.png" width="60"/>
     </a>
