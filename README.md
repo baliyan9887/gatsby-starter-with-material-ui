@@ -3,6 +3,11 @@
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
   </a>
+</p> + 
+<p align="center">
+  <a href="https://www.material-ui.com">
+    <img alt="material-ui"  src="https://material-ui.com/static/logo.png" width="60"/>
+  </a>
 </p>
 <h1 align="center">
   Gatsby's starter with Material-UI
