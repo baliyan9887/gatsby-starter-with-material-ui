@@ -1,13 +1,21 @@
 html {
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 article,
 aside,
 details,
@@ -94,7 +102,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: monospace, monospace;
+  font-family: "Roboto", sans-serif;
   font-size: 1em;
 }
 figure {
@@ -200,7 +208,7 @@ html {
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: "Roboto", sans-serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -619,4 +627,18 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+.back {
+  font-size: 20px;
+  font-weight: 550;
+}
+.back::before {
+    display: inline-block;
+    content: "";
+    border-top: .15rem solid #65359D;
+    width: 3rem;
+    margin: 0 0rem;
+    transform: translateY(-.3rem);
+    margin-right: 15px;
 }

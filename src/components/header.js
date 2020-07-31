@@ -21,6 +21,8 @@ import ListItemIcon from '@material-ui/core/ListItemIcon'
 import ListItemText from '@material-ui/core/ListItemText'
 import HomeIcon from '@material-ui/icons/Home'
 import ListIcon from '@material-ui/icons/ViewList'
+import CodeIcon from '@material-ui/icons/Code';
+import NotInterestedIcon from '@material-ui/icons/NotInterested';
 
 const drawerWidth = 240
 
@@ -154,6 +156,22 @@ const Header = ({ siteTitle }) => {
                 <ListIcon />
               </ListItemIcon>
               <ListItemText>Components</ListItemText>
+            </ListItem>
+          </Link>
+          <Link to="/typescript">
+            <ListItem button>
+              <ListItemIcon>
+                <CodeIcon />
+              </ListItemIcon>
+              <ListItemText>TypeScript</ListItemText>
+            </ListItem>
+          </Link>
+          <Link to="/404">
+            <ListItem button>
+              <ListItemIcon>
+                <NotInterestedIcon />
+              </ListItemIcon>
+              <ListItemText>Not Found</ListItemText>
             </ListItem>
           </Link>
         </List>
