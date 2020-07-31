@@ -1,16 +1,21 @@
 import React from "react"
-import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-
+import { Typography} from '@material-ui/core'
 const SecondPage = () => (
-  <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
-  </Layout>
+  <div style={{background: '#111', width:'100%', height: '100vh'}} align="center">
+    <img src="https://material-ui.com/static/logo.png" width="60px"/>
+    <Typography 
+      variant="h3"
+      style={{
+        fontWeight: 300,
+        textIndent: '.7rem',
+        whiteSpace: 'nowrap',
+        letterSpacing: '.7rem',
+        color: '#fff'
+      }}
+    >
+      MATERIAL-UI
+    </Typography>
+  </div>
 )
 
 export default SecondPage
