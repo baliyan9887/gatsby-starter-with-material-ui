@@ -642,3 +642,10 @@ pre tt:after {
     transform: translateY(-.3rem);
     margin-right: 15px;
 }
+
+.break {
+  height: 4px;
+  width: 90px;
+  background: #65359D;
+  margin-top: 20px;
+}
