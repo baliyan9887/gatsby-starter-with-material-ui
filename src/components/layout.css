@@ -649,3 +649,22 @@ pre tt:after {
   background: #65359D;
   margin-top: 20px;
 }
+
+.started {
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  line-height: 1.7;
+  margin-top: 1em;
+  margin-bottom: 2em;
+  padding-right: 1em;
+
+}
+.started::before {
+  display: inline-block;
+  content: "";
+  border-top: .15rem solid #65359D;
+  width: 2.5rem;
+  margin: 0 0rem;
+  transform: translateY(-.2rem);
+  margin-right: 15px;
+}
