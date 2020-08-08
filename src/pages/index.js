@@ -19,7 +19,7 @@ import InfoIcon from '@material-ui/icons/Info'
 import ExpandLess from '@material-ui/icons/ExpandLess'
 import ExpandMore from '@material-ui/icons/ExpandMore'
 import Done from '@material-ui/icons/Done'
-
+import {Typography} from '@material-ui/core'
 const useStyles = makeStyles(theme => ({
   root: {
     width: '100%',
@@ -27,6 +27,19 @@ const useStyles = makeStyles(theme => ({
   },
   nested: {
     paddingLeft: theme.spacing(4),
+  },
+  head:{
+    fontWeight: 300,
+    textIndent: '.7rem',
+    whiteSpace: 'nowrap',
+    letterSpacing: '.7rem',
+  },
+  desc:{
+    letterSpacing: '1px',
+    marginTop: '1em',
+    marginBottom: '2em',
+    lineHeight: 1.7,
+    paddingLeft: '1em'
   },
 }));
 
@@ -57,11 +70,14 @@ const IndexPage = () => {
           </div>
         </Grid>
         <Grid item xs={10}>
-          <h1>Gatsby Material UI Starter</h1>
-          <h5>
-            A responsive, minimalist Gatsby starter based on the world's most
-            popular React UI framework.
-          </h5>
+          <Typography variant="h3" className={classes.head}>
+              Gatsby
+          </Typography>
+          <Typography variant="body2" className={classes.desc} align="justify" color="textSecondary" component="p">
+            A powerful starter that will help you to create an amazing and stunning website with the help of Material-UI in Gatsby
+          </Typography>
+          <Typography variant="body2" color="textSecondary" className={classes.desc}>To learn more, head over to our <a href="https://www.gatsbyjs.org/docs/" target="_blank" style={{color: '#65359D'}}>documentation about Gatsby</a>.</Typography>
+          
         </Grid>
       </Grid>
       <Divider />
