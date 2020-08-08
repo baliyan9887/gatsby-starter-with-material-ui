@@ -3,7 +3,7 @@
   "private": true,
   "description": "A powerful starter that will help you to create an amazing and stunning website with the help of Material-UI in Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Gautam Kumar <gk150899@gmail.com>",
   "dependencies": {
     "@date-io/date-fns": "^2.8.0",
     "@material-ui/core": "^4.11.0",
