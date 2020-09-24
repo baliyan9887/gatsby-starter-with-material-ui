@@ -2,7 +2,7 @@
 <div>
   <p align="center">
     <a href="https://www.gatsbyjs.org">
-      <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
+      <img alt="Gatsby" src="https://seeklogo.com/images/G/gatsby-logo-1A245AD37F-seeklogo.com.png" width="60" />
     </a>
     <span >+</span>
     <a href="https://www.material-ui.com">
