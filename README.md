@@ -24,7 +24,7 @@ _Have another more specific idea? You may want to check out our vibrant collecti
 
     Use the Gatsby CLI to create a new site, specifying the default starter.
 
-    ```shell
+    ```shell 
     # create a new Gatsby site using the default starter
     gatsby new material-starter https://github.com/baliyan9887/gatsby-starter-with-material-ui.git
     ```
