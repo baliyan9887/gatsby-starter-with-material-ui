@@ -28,7 +28,7 @@
     "react-swipeable-views": "^0.13.9"
   },
   "devDependencies": {
-    "prettier": "2.0.5"
+    "prettier": "2.8.2"
   },
   "keywords": [
     "gatsby"
